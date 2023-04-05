@@ -7,6 +7,7 @@ int main()
 	scanf("%d",&a);	
     int *arr = (int *)malloc(sizeof(int)*a);
     int *str = (int *)malloc(sizeof(int)*a);
+    printf("Hello World!");
     
     while(i < a){
 		scanf("%d", &arr[i]);			
